@@ -39,13 +39,22 @@ namespace KetNoiCSDL
         private void btnthem_Click(object sender, EventArgs e)
         {
             //Hàm thêm dữ liệu vào bảng LoaiHang
-            Class1.Execute("insert LoaiHang value('" + txtma.Text + "', N'" + txtten.Text + "')");
+            if (txtma.Text == "" || txtten.Text == "") return;
+            try
+            {
+                Class1.Execute("insert LoaiHang values('" + txtma.Text + "', N'" + txtten.Text + "')");
+            }
+            catch (Exception)
+            {
+                return;
+            }
             LoaiHang();
         }
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
             //Hàm xóa dữ liệu khỏi bảng LoaiHang
+            if(dgv.CurrentRow == null) return; // nếu bảng dữ liệu trống thì không làm gì cả
             Class1.Execute("delete LoaiHang where MaLoaiHang = '" + dgv.CurrentRow.Cells[0].Value.ToString() + "'");
             LoaiHang();
         }
@@ -53,6 +62,8 @@ namespace KetNoiCSDL
         private void btnsua_Click(object sender, EventArgs e)
         {
             //Hàm sửa dữ liệu đang chọn bằng dữ liệu mới
+            if (txtma.Text == "" || txtten.Text == "") return;
+            if (dgv.CurrentRow == null) return; // nếu bảng dữ liệu trống thì không làm gì cả
             Class1.Execute("update LoaiHang set MaLoaiHang = '" + txtma.Text + "'," + " TenLoaiHang = N'" + txtten.Text + "' " + " where MaLoaiHang = '" + dgv.CurrentRow.Cells[0].Value.ToString() + "'");
             LoaiHang();
         }
