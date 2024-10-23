@@ -1,0 +1,10 @@
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\bin\Debug\KetNoiCSDL.exe.config
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\bin\Debug\KetNoiCSDL.exe
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\bin\Debug\KetNoiCSDL.pdb
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.csproj.AssemblyReference.cache
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.Form1.resources
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.Properties.Resources.resources
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.csproj.GenerateResource.cache
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.csproj.CoreCompileInputs.cache
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.exe
+C:\Users\nghia\OneDrive\Máy tính\Windows Form\KetNoiCSDL\obj\Debug\KetNoiCSDL.pdb
